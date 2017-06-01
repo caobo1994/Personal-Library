@@ -1,2 +1,2 @@
-/usr/bin/ar qc libPersonal_Library.a  CMakeFiles/Personal_Library.dir/list.cpp.o CMakeFiles/Personal_Library.dir/list_node.cpp.o
+/usr/bin/ar qc libPersonal_Library.a  CMakeFiles/Personal_Library.dir/list.cpp.o CMakeFiles/Personal_Library.dir/list_node.cpp.o CMakeFiles/Personal_Library.dir/deque.cpp.o
 /usr/bin/ranlib libPersonal_Library.a

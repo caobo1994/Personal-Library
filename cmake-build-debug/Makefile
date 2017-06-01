@@ -123,6 +123,33 @@ Personal_Library/fast:
 	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/build
 .PHONY : Personal_Library/fast
 
+deque.o: deque.cpp.o
+
+.PHONY : deque.o
+
+# target to build an object file
+deque.cpp.o:
+	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/deque.cpp.o
+.PHONY : deque.cpp.o
+
+deque.i: deque.cpp.i
+
+.PHONY : deque.i
+
+# target to preprocess a source file
+deque.cpp.i:
+	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/deque.cpp.i
+.PHONY : deque.cpp.i
+
+deque.s: deque.cpp.s
+
+.PHONY : deque.s
+
+# target to generate assembly for a file
+deque.cpp.s:
+	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/deque.cpp.s
+.PHONY : deque.cpp.s
+
 list.o: list.cpp.o
 
 .PHONY : list.o
@@ -186,6 +213,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Personal_Library"
+	@echo "... deque.o"
+	@echo "... deque.i"
+	@echo "... deque.s"
 	@echo "... list.o"
 	@echo "... list.i"
 	@echo "... list.s"

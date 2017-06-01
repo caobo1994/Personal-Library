@@ -185,6 +185,155 @@ public:
     }
 
     ~list()= default;
+
+    list<T>& operator++()
+    {
+        if(current_store==en_store)
+        {
+            throw(std::range_error(next_nonexist));
+        }
+        current_store=current_store->next();
+        position_store++;
+        return *this;
+    }
+
+    list<T>& operator--()
+    {
+        if(current_store==be_store)
+        {
+            throw(std::range_error(pre_nonexist))
+        }
+        current_store=current_store->pre();
+        position_store--;
+        return *this;
+    }
+
+
+    PNODE delete_head()
+    {
+
+        PNODE head_next=be_store->next();
+        be_store->next()= nullptr;
+        be_store=head_next;
+        be_store->pre()= nullptr;
+        if(position_store)
+        {
+            position_store--;
+            length_store--;
+        }
+        else
+        {
+            length_store--;
+            current_store=head_next;
+        }
+        return head_next;
+    }
+    PNODE delete_tail()
+    {
+        PNODE tail_pre=en_store->pre();
+        en_store->pre()= nullptr;
+        en_store=tail_pre;
+        en_store->next()= nullptr;
+        if(position_store<(length_store-1))
+        {
+            length_store--;
+        }
+        else
+        {
+            position_store--;
+            length_store--;
+            current_store=tail_pre;
+        }
+        return tail_pre;
+    }
+    PNODE delete_current()
+    {
+        if(current_store==be_store)
+        {
+            return delete_head();
+        }
+        if(current_store==en_store)
+        {
+            return delete_tail();
+        }
+        PNODE current_pre=current_store->pre();
+        PNODE current_next=current_store->next();
+        current_pre->next()=current_next;
+        current_next->pre()=current_pre;
+        current_store=current_next;
+        return current_store;
+    }
+
+    PNODE delete_current_to_pre()
+    {
+        delete_current();
+        this->--;
+        return current_store;
+    }
+
+    PNODE add_head(list_node<T>& node_in)
+    {
+        auto be_new=PNODE(&node_in);
+        be_store->pre()=be_new;
+        be_new->next()=be_store;
+        be_store=be_new;
+        length_store++;
+        position_store++;
+        return be_store;
+    }
+
+    PNODE add_tail(list_node<T>& node_in)
+    {
+        auto en_new=PNODE(&node_in);
+        en_store->next()=en_new;
+        en_new->pre()=en_store;
+        en_store=en_new;
+        length_store++;
+        return en_store;
+    }
+
+    PNODE add_current_pre(list_node<T>& node_in)
+    {
+        auto current_pre_new= static_cast<PNODE >(&node_in);
+        PNODE current_pre=current_store->pre();
+        current_store->pre()=current_pre_new;
+        current_pre->next()=current_pre_new;
+        current_pre_new->next()=current_store;
+        current_pre_new->pre()=current_pre;
+        length_store++;
+        position_store++;
+        return current_pre_new;
+    }
+
+    PNODE add_current_next(list_node<T>& node_in)
+    {
+        auto current_next_new= static_cast<PNODE >(&node_in);
+        PNODE current_next=current_store->pre();
+        current_store->next()=current_next_new;
+        current_next->pre()=current_next_new;
+        current_next_new->pre()=current_store;
+        current_next_new->next()=current_next;
+        length_store++;
+        return current_next_new;
+    }
+
+    decltype(*PNODE())&& make_node(const T& data_in)
+    {
+        return decltype(*PNODE())(data_in);
+    }
+
+    PNODE add_head(const T& data_in)
+    {
+        auto new_node=make_node(data_in);
+        return add_head(data_in);
+    }
+
+    PNODE add_tail(const T& data_in)
+    {
+        auto new_node=make_node(data_in);
+        return add_tail(data_in)
+    }
+
 };
 
 

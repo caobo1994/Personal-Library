@@ -7,6 +7,9 @@
 
 
 #include <memory>
+const char* pre_nonexist="Previous node does not exist";
+const char* next_nonexist="Next node does not exist";
+
 
 template<class T>
 class list_node
@@ -71,7 +74,7 @@ public:
         }
         else
         {
-            throw(std::range_error("Previous node does not exist."));
+            throw(std::range_error(pre_nonexist));
         }
     }
 
@@ -88,7 +91,7 @@ public:
         }
         else
         {
-            throw(std::range_error("Next node does not exist."));
+            throw(std::range_error(next_nonexist));
         }
     }
 

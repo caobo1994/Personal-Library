@@ -84,6 +84,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/caobo/Codes/Personal-Library/cmake-build-debug/deque.cpp">
+			<Option target="Personal_Library"/>
+		</Unit>
+		<Unit filename="/home/caobo/Codes/Personal-Library/cmake-build-debug/deque.h">
+			<Option target="Personal_Library"/>
+		</Unit>
 		<Unit filename="/home/caobo/Codes/Personal-Library/cmake-build-debug/list.cpp">
 			<Option target="Personal_Library"/>
 		</Unit>
