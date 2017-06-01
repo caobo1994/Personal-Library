@@ -123,32 +123,59 @@ Personal_Library/fast:
 	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/build
 .PHONY : Personal_Library/fast
 
-library.o: library.cpp.o
+list.o: list.cpp.o
 
-.PHONY : library.o
+.PHONY : list.o
 
 # target to build an object file
-library.cpp.o:
-	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/library.cpp.o
-.PHONY : library.cpp.o
+list.cpp.o:
+	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/list.cpp.o
+.PHONY : list.cpp.o
 
-library.i: library.cpp.i
+list.i: list.cpp.i
 
-.PHONY : library.i
+.PHONY : list.i
 
 # target to preprocess a source file
-library.cpp.i:
-	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/library.cpp.i
-.PHONY : library.cpp.i
+list.cpp.i:
+	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/list.cpp.i
+.PHONY : list.cpp.i
 
-library.s: library.cpp.s
+list.s: list.cpp.s
 
-.PHONY : library.s
+.PHONY : list.s
 
 # target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/library.cpp.s
-.PHONY : library.cpp.s
+list.cpp.s:
+	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/list.cpp.s
+.PHONY : list.cpp.s
+
+list_node.o: list_node.cpp.o
+
+.PHONY : list_node.o
+
+# target to build an object file
+list_node.cpp.o:
+	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/list_node.cpp.o
+.PHONY : list_node.cpp.o
+
+list_node.i: list_node.cpp.i
+
+.PHONY : list_node.i
+
+# target to preprocess a source file
+list_node.cpp.i:
+	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/list_node.cpp.i
+.PHONY : list_node.cpp.i
+
+list_node.s: list_node.cpp.s
+
+.PHONY : list_node.s
+
+# target to generate assembly for a file
+list_node.cpp.s:
+	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/list_node.cpp.s
+.PHONY : list_node.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Personal_Library"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... list.o"
+	@echo "... list.i"
+	@echo "... list.s"
+	@echo "... list_node.o"
+	@echo "... list_node.i"
+	@echo "... list_node.s"
 .PHONY : help
 
 

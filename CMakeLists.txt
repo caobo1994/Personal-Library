@@ -3,5 +3,5 @@ project(Personal_Library)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(SOURCE_FILES library.cpp library.h)
-add_library(Personal_Library ${SOURCE_FILES})
+set(SOURCE_FILES cmake-build-debug/list.cpp cmake-build-debug/list.h cmake-build-debug/list_node.cpp cmake-build-debug/list_node.h)
+add_library(Personal_Library ${SOURCE_FILES} cmake-build-debug/list.cpp cmake-build-debug/list.h)

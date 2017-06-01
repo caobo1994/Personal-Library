@@ -84,10 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/caobo/Codes/Personal-Library/library.cpp">
+		<Unit filename="/home/caobo/Codes/Personal-Library/cmake-build-debug/list.cpp">
 			<Option target="Personal_Library"/>
 		</Unit>
-		<Unit filename="/home/caobo/Codes/Personal-Library/library.h">
+		<Unit filename="/home/caobo/Codes/Personal-Library/cmake-build-debug/list.h">
+			<Option target="Personal_Library"/>
+		</Unit>
+		<Unit filename="/home/caobo/Codes/Personal-Library/cmake-build-debug/list_node.cpp">
+			<Option target="Personal_Library"/>
+		</Unit>
+		<Unit filename="/home/caobo/Codes/Personal-Library/cmake-build-debug/list_node.h">
 			<Option target="Personal_Library"/>
 		</Unit>
 		<Unit filename="/home/caobo/Codes/Personal-Library/CMakeLists.txt">

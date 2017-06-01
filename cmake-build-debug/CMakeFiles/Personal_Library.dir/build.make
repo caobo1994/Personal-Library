@@ -57,41 +57,67 @@ include CMakeFiles/Personal_Library.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Personal_Library.dir/flags.make
 
-CMakeFiles/Personal_Library.dir/library.cpp.o: CMakeFiles/Personal_Library.dir/flags.make
-CMakeFiles/Personal_Library.dir/library.cpp.o: ../library.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caobo/Codes/Personal-Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Personal_Library.dir/library.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Personal_Library.dir/library.cpp.o -c /home/caobo/Codes/Personal-Library/library.cpp
+CMakeFiles/Personal_Library.dir/list.cpp.o: CMakeFiles/Personal_Library.dir/flags.make
+CMakeFiles/Personal_Library.dir/list.cpp.o: list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caobo/Codes/Personal-Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Personal_Library.dir/list.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Personal_Library.dir/list.cpp.o -c /home/caobo/Codes/Personal-Library/cmake-build-debug/list.cpp
 
-CMakeFiles/Personal_Library.dir/library.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Personal_Library.dir/library.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caobo/Codes/Personal-Library/library.cpp > CMakeFiles/Personal_Library.dir/library.cpp.i
+CMakeFiles/Personal_Library.dir/list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Personal_Library.dir/list.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caobo/Codes/Personal-Library/cmake-build-debug/list.cpp > CMakeFiles/Personal_Library.dir/list.cpp.i
 
-CMakeFiles/Personal_Library.dir/library.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Personal_Library.dir/library.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caobo/Codes/Personal-Library/library.cpp -o CMakeFiles/Personal_Library.dir/library.cpp.s
+CMakeFiles/Personal_Library.dir/list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Personal_Library.dir/list.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caobo/Codes/Personal-Library/cmake-build-debug/list.cpp -o CMakeFiles/Personal_Library.dir/list.cpp.s
 
-CMakeFiles/Personal_Library.dir/library.cpp.o.requires:
+CMakeFiles/Personal_Library.dir/list.cpp.o.requires:
 
-.PHONY : CMakeFiles/Personal_Library.dir/library.cpp.o.requires
+.PHONY : CMakeFiles/Personal_Library.dir/list.cpp.o.requires
 
-CMakeFiles/Personal_Library.dir/library.cpp.o.provides: CMakeFiles/Personal_Library.dir/library.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/library.cpp.o.provides.build
-.PHONY : CMakeFiles/Personal_Library.dir/library.cpp.o.provides
+CMakeFiles/Personal_Library.dir/list.cpp.o.provides: CMakeFiles/Personal_Library.dir/list.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/list.cpp.o.provides.build
+.PHONY : CMakeFiles/Personal_Library.dir/list.cpp.o.provides
 
-CMakeFiles/Personal_Library.dir/library.cpp.o.provides.build: CMakeFiles/Personal_Library.dir/library.cpp.o
+CMakeFiles/Personal_Library.dir/list.cpp.o.provides.build: CMakeFiles/Personal_Library.dir/list.cpp.o
+
+
+CMakeFiles/Personal_Library.dir/list_node.cpp.o: CMakeFiles/Personal_Library.dir/flags.make
+CMakeFiles/Personal_Library.dir/list_node.cpp.o: list_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/caobo/Codes/Personal-Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Personal_Library.dir/list_node.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Personal_Library.dir/list_node.cpp.o -c /home/caobo/Codes/Personal-Library/cmake-build-debug/list_node.cpp
+
+CMakeFiles/Personal_Library.dir/list_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Personal_Library.dir/list_node.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/caobo/Codes/Personal-Library/cmake-build-debug/list_node.cpp > CMakeFiles/Personal_Library.dir/list_node.cpp.i
+
+CMakeFiles/Personal_Library.dir/list_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Personal_Library.dir/list_node.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/caobo/Codes/Personal-Library/cmake-build-debug/list_node.cpp -o CMakeFiles/Personal_Library.dir/list_node.cpp.s
+
+CMakeFiles/Personal_Library.dir/list_node.cpp.o.requires:
+
+.PHONY : CMakeFiles/Personal_Library.dir/list_node.cpp.o.requires
+
+CMakeFiles/Personal_Library.dir/list_node.cpp.o.provides: CMakeFiles/Personal_Library.dir/list_node.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Personal_Library.dir/build.make CMakeFiles/Personal_Library.dir/list_node.cpp.o.provides.build
+.PHONY : CMakeFiles/Personal_Library.dir/list_node.cpp.o.provides
+
+CMakeFiles/Personal_Library.dir/list_node.cpp.o.provides.build: CMakeFiles/Personal_Library.dir/list_node.cpp.o
 
 
 # Object files for target Personal_Library
 Personal_Library_OBJECTS = \
-"CMakeFiles/Personal_Library.dir/library.cpp.o"
+"CMakeFiles/Personal_Library.dir/list.cpp.o" \
+"CMakeFiles/Personal_Library.dir/list_node.cpp.o"
 
 # External object files for target Personal_Library
 Personal_Library_EXTERNAL_OBJECTS =
 
-libPersonal_Library.a: CMakeFiles/Personal_Library.dir/library.cpp.o
+libPersonal_Library.a: CMakeFiles/Personal_Library.dir/list.cpp.o
+libPersonal_Library.a: CMakeFiles/Personal_Library.dir/list_node.cpp.o
 libPersonal_Library.a: CMakeFiles/Personal_Library.dir/build.make
 libPersonal_Library.a: CMakeFiles/Personal_Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caobo/Codes/Personal-Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libPersonal_Library.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/caobo/Codes/Personal-Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libPersonal_Library.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Personal_Library.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Personal_Library.dir/link.txt --verbose=$(VERBOSE)
 
@@ -100,7 +126,8 @@ CMakeFiles/Personal_Library.dir/build: libPersonal_Library.a
 
 .PHONY : CMakeFiles/Personal_Library.dir/build
 
-CMakeFiles/Personal_Library.dir/requires: CMakeFiles/Personal_Library.dir/library.cpp.o.requires
+CMakeFiles/Personal_Library.dir/requires: CMakeFiles/Personal_Library.dir/list.cpp.o.requires
+CMakeFiles/Personal_Library.dir/requires: CMakeFiles/Personal_Library.dir/list_node.cpp.o.requires
 
 .PHONY : CMakeFiles/Personal_Library.dir/requires
 
