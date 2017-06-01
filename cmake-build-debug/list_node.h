@@ -100,7 +100,7 @@ public:
     list_node()= default;
     list_node(const list_node<T>&)= default;
     list_node(list_node<T>&&)= default;
-    list_node(T&& data_in,PT pre_in=static_cast<PT >(nullptr),PT next_in=static_cast<PT >(nullptr))
+    list_node(T&& data_in= static_cast<T>(0), PT pre_in=static_cast<PT >(nullptr), PT next_in=static_cast<PT >(nullptr))
     {
         data_store=data_in;
         pre_store=pre_in;
