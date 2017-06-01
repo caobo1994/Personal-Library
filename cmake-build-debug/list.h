@@ -331,7 +331,7 @@ public:
     PNODE add_tail(const T& data_in)
     {
         auto new_node=make_node(data_in);
-        return add_tail(data_in)
+        return add_tail(data_in);
     }
 
 };

@@ -32,21 +32,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b0632d4-b235-48b3-ac22-1288d6720f38" name="Default" comment="Good">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Personal_Library.dir/DependInfo.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Personal_Library.dir/DependInfo.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Personal_Library.dir/build.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Personal_Library.dir/build.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Personal_Library.dir/cmake_clean.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Personal_Library.dir/cmake_clean.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Personal_Library.dir/link.txt" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Personal_Library.dir/link.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Personal_Library.dir/progress.make" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Personal_Library.dir/progress.make" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Personal_Library.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Personal_Library.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/list.h" afterPath="$PROJECT_DIR$/cmake-build-debug/list.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/list_node.h" afterPath="$PROJECT_DIR$/cmake-build-debug/list_node.h" />
-    </list>
+    <list default="true" id="4b0632d4-b235-48b3-ac22-1288d6720f38" name="Default" comment="Good" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -104,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/list.h">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1205">
-              <caret line="333" column="24" lean-forward="false" selection-start-line="333" selection-start-column="24" selection-end-line="333" selection-end-column="24" />
+              <caret line="333" column="33" lean-forward="false" selection-start-line="333" selection-start-column="33" selection-end-line="333" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -469,12 +455,12 @@
       <option name="presentableId" value="Default" />
       <updated>1496339637750</updated>
       <workItem from="1496339641971" duration="664000" />
-      <workItem from="1496340860153" duration="4403000" />
+      <workItem from="1496340860153" duration="4496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5067000" />
+    <option name="totallyTimeSpent" value="5160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="-8" width="3710" height="2168" extended-state="6" />
@@ -638,7 +624,7 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/list.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1205">
-          <caret line="333" column="24" lean-forward="false" selection-start-line="333" selection-start-column="24" selection-end-line="333" selection-end-column="24" />
+          <caret line="333" column="33" lean-forward="false" selection-start-line="333" selection-start-column="33" selection-end-line="333" selection-end-column="33" />
           <folding />
         </state>
       </provider>
